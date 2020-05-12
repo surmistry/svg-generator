@@ -17,5 +17,5 @@ const optionDefinitions = [
 const options = commandLineArgs(optionDefinitions)
 const { start, end, noise, width, height } = options;
 const hexString = hexagon({ colors: { start, end }, shapeSize: 15, width, height, noise });
-writeFile(options.output || './output.svg', hexString);
+writeFile(options.output || 'output.svg', hexString);
 
