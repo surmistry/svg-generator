@@ -11,7 +11,7 @@ const optionDefinitions = [
   { name: 'width', alias: 'w', type: Number },
   { name: 'height', alias: 'h', type: Number },
   { name: 'size', alias: 's', type: Number },
-  { name: 'output', alias: 'o', type: string }
+  { name: 'output', alias: 'o', type: String }
 ]
 
 const options = commandLineArgs(optionDefinitions)
