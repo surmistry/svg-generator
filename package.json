@@ -1,0 +1,25 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "Create an svg image.",
+  "main": "./index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": "./bin/index.js",
+  "dependencies": {
+    "command-line-args": "^5.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surmistry/svg-generator.git"
+  },
+  "keywords": [],
+  "author": "Suraj Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surmistry/svg-generator/issues"
+  },
+  "homepage": "https://github.com/surmistry/svg-generator#readme"
+}
