@@ -1,6 +1,6 @@
 {
   "name": "svg-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an svg image.",
   "main": "./index.js",
   "directories": {
@@ -8,7 +8,8 @@
   },
   "bin": "./bin/index.js",
   "dependencies": {
-    "command-line-args": "^5.1.1"
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0"
   },
   "devDependencies": {},
   "repository": {
