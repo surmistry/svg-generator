@@ -54,7 +54,7 @@ const inputParameters = [
       },
       {
         name: 'height',
-        alias: 'hh',
+        alias: 'h',
         typeLabel: '{underline number}',
         description: 'Height of viewbox, defaults to 80.'
       },
@@ -74,6 +74,7 @@ if (options.help) {
   console.log(usage)
   return
 }
+
 const { start, end, noise, width, height } = options;
 const hexString = hexagon({ colors: { start, end }, shapeSize: 15, width, height, noise });
 writeFile(options.output || 'output.svg', hexString);
