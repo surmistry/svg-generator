@@ -1,6 +1,6 @@
 {
   "name": "svg-generator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create an svg image.",
   "main": "./dist/index.js",
   "directories": {
