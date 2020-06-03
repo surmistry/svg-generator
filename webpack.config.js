@@ -2,12 +2,13 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './index.js',
-  target: 'node',
+  entry: './lib/templates/index.js',
+  target: 'web',
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2',
+    libraryTarget: 'var',
+    library: 'SvgGenerator'
   },
   module: {
     rules: [

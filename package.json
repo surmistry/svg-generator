@@ -1,6 +1,6 @@
 {
   "name": "svg-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create an svg image.",
   "main": "./dist/index.js",
   "directories": {
@@ -22,7 +22,8 @@
     "url": "git+https://github.com/surmistry/svg-generator.git"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
   },
   "keywords": [],
   "author": "Suraj Mistry",
