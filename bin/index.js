@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { hexagon } = require('../lib/templates');
-const { writeFile } = require('../lib/utils');
+const { writeFile } = require('../lib/io');
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 
