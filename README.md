@@ -1,26 +1,9 @@
 # svg-generator
+[![npm version](https://badge.fury.io/js/svg-generator.svg)](https://badge.fury.io/js/svg-generator)
 
 Create an svg image with a color gradient and repeating shape.
 
-
-## __installation__
-
-
-Install globally to use anywhere to use via CLI.
-
-```
-npm install --global svg-generator
-```
-
-
-Or use it as a local, node installation:
-
-```
-npm install --save svg-generator
-```
-
-
-## __usage__
+## Usage
 
 CLI 
 ```
@@ -39,9 +22,7 @@ For more details on input parameters:
 ```
 svg-generator --help
 ```
-## __example__
-
-### CLI example
+## Example
 
 The following input will generate an svg.
 
